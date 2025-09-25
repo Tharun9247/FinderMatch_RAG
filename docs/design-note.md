@@ -142,3 +142,15 @@ TF-IDF fallback ensures that even if embeddings fail, the search will still retu
 7. Conclusion
 
 FounderMatch RAG is designed to bridge the gap between natural language queries and structured founder data. By combining embeddings, keyword boosts, and TF-IDF fallback, the system delivers transparent, explainable, and highly relevant matches for startup teams and investors.
+
+
+
+
+
+--->AI-Assisted Parts in FounderMatch RAG
+
+AI-assisted: Functions for embeddings, TF-IDF fallback, search scoring, snippet generation, and docstrings/comments. AI helped draft some code logic and layout suggestions.
+
+Manually implemented: Dataset creation (founders.csv, embeddings.json), integrating AI-generated functions into the Streamlit app, deployment on Streamlit Cloud, API key management, UI testing, and styling tweaks.
+
+Summary: AI acted as a coding assistant, but all critical integration and deployment steps were done manually.

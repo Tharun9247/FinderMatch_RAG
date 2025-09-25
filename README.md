@@ -148,3 +148,53 @@ Fast search (<1s for 700 rows)
 Optimized for Streamlit limits
 
 First load: 2-3s
+
+
+
+
+
+-->Instructions to run this application on local system
+Follow these steps to run FinderMatch RAG locally:
+
+-Clone the repository
+
+-git clone https://github.com/Tharun9247/FinderMatch_RAG.git
+cd FinderMatch_RAG
+
+
+-Create and activate a virtual environment
+
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# macOS/Linux
+python3 -m venv .venv
+source .venv/bin/activate
+
+
+-Install dependencies
+
+-pip install -r requirements.txt
+
+
+-Set your Hugging Face API token
+
+# Windows PowerShell
+$Env:HF_API_TOKEN="YOUR_HF_API_TOKEN"
+
+# macOS/Linux
+export HF_API_TOKEN="YOUR_HF_API_TOKEN"
+
+
+-Run the Streamlit app
+
+-streamlit run app.py
+
+
+-Open your browser and navigate to
+
+-http://localhost:8501
+
+
+-Use the app by entering queries to search for founders.
